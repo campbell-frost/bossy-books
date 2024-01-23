@@ -11,7 +11,7 @@ import Link from 'next/link';
 export default function LoginForm() {
   return (
     <form className="space-y-3">
-      <div className="flex-1 px-6 pb-4 pt-4">
+      <div className="flex-1 px-6 pb-4">
 
         <div className="w-full">
           <div>

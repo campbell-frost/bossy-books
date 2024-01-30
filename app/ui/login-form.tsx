@@ -11,7 +11,7 @@ import Link from 'next/link';
 export default function LoginForm() {
   return (
     <form className="space-y-3">
-      <div className="flex-1 px-6 pb-4">
+      <div className="flex-1 px-6 pb-4 pt-4">
 
         <div className="w-full">
           <div>
@@ -23,7 +23,7 @@ export default function LoginForm() {
             </label>
             <div className="relative">
               <input
-                className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm placeholder:text-gray-500 focus:ring-0 focus:border-pink-600"
+                className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500"
                 id="email"
                 type="email"
                 name="email"
@@ -42,7 +42,7 @@ export default function LoginForm() {
             </label>
             <div className="relative">
               <input
-                className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm placeholder:text-gray-500 focus:ring-0 focus:border-pink-600"
+                className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500"
                 id="password"
                 type="password"
                 name="password"
@@ -95,7 +95,7 @@ export default function LoginForm() {
 function LoginButton() {
   return (
     <Button className="mt-4 w-full">
-      Login <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
+      Log in <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
     </Button>
   );
 }
